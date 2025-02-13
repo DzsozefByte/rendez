@@ -4,9 +4,9 @@ body {
     align-items: center;
     font-family: Arial;
     background-color: #ffffff;
-opacity: 1;
-background-image:  linear-gradient(#45539f 4px, transparent 4px), linear-gradient(to right, #45539f 4px, #ffffff 4px);
-background-size: 80px 80px;
+    opacity: 1;
+    background-image:  linear-gradient(#45539f 4px, transparent 4px), linear-gradient(to right, #45539f 4px, #ffffff 4px);
+    background-size: 80px 80px;
 }
 .container {
     display: flex;
@@ -18,9 +18,6 @@ background-size: 80px 80px;
     
 }
 
-
-
-/* CSS */
 .button-26 {
   appearance: button;
   background-color: #45539f;
@@ -60,4 +57,13 @@ background-size: 80px 80px;
 .button-26:active {
   background-color: #0039D7;
   border-color: #0039D7;
+}
+
+.bar {
+    width: 50px;
+    height: 40px;
+    background-color: rgb(90, 140, 197);
+    text-align: center;
+    padding: 5px;
+    font-size: 35px;
 }
